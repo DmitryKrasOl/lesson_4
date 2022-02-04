@@ -1,0 +1,156 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Andada+Pro:regular,700,italic,700italic&display=swap");
+
+@font-face {
+	font-family: "BalsamiqSans";
+	src: url("../fonts/BalsamiqSans-Regular.woff2") format("woff2"),
+		url("../fonts/BalsamiqSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "BalsamiqSans";
+	src: url("../fonts/BalsamiqSans-Bold.woff2") format("woff2"), url("../fonts/BalsamiqSans-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "BalsamiqSans";
+	src: url("../fonts/BalsamiqSans-Italic.woff2") format("woff2"),
+		url("../fonts/BalsamiqSans-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TTCommons";
+	src: url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+}
+
+li {
+	font-family: "BalsamiqSans", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.film1 li {
+	font-style: italic;
+	color: rgb(68, 205, 240);
+}
+
+/* text align */
+
+.film1 p {
+	text-align: right;
+}
+
+.film2 {
+}
+
+.film3 p {
+	text-align: justify;
+}
+
+/* text-shadow */
+
+.shadow-1 {
+	text-shadow: 2px 2px 0px #000;
+}
+.shadow-2 {
+	text-shadow: -2px -2px 3px #000;
+}
+.shadow-3 {
+	text-shadow: 2px 2px 7px rgb(0, 140, 255);
+}
+.shadow-4 {
+	text-shadow: 100px 0px 0px rgb(255, 0, 0);
+}
+
+/* text decoration */
+
+.line-throught {
+	text-decoration: line-through;
+}
+.overline {
+	text-decoration: overline;
+}
+.underline {
+	text-decoration: underline;
+}
+
+/* text-transform (наследуется) */
+.tt-lower {
+	text-transform: lowercase;
+}
+
+.tt-upper {
+	text-transform: uppercase;
+}
+
+#test3 {
+	text-transform: capitalize;
+	word-spacing: -70px;
+	text-align: center;
+}
+
+.text-id {
+	text-indent: 10%;
+	/* letter-spacing: -10px; */
+	word-spacing: 50px;
+	letter-spacing: 4px;
+	white-space: nowrap;
+}
+
+/*==================== figma ====================== */
+h3 {
+	color: #1e212c;
+	font-family: "Lato", sans-serif;
+	font-size: 46px;
+	font-weight: 900;
+}
+
+.figma-text-1 {
+	font-family: "Lato", sans-serif;
+	color: #424551;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.main-figma li,
+.main-figma {
+	font-family: "Lato", sans-serif;
+	color: #424551;
+	font-size: 16px;
+	line-height: 1.6;
+}
